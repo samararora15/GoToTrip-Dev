@@ -1,0 +1,33 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+
+# Generated Supabase Edge deploy payloads (run scripts/deploy-edge-functions.mjs)
+supabase/functions/**/deploy.json
+supabase/functions/**/deploy-payload.json
+scripts/mcp-args-*.json
+scripts/deploy-*-payload.min.json
+dist-ssr
+*.local
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
