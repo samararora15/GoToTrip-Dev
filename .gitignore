@@ -9,6 +9,7 @@ lerna-debug.log*
 
 node_modules
 dist
+supabase/.temp/
 
 # Generated Supabase Edge deploy payloads (run scripts/deploy-edge-functions.mjs)
 supabase/functions/**/deploy.json
